@@ -1,0 +1,253 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*Cabeçalho da página*/
+
+.header{
+    background-color: #233747;
+    padding-bottom: 2px; /*aumenta o tamanho do header azul*/
+}
+
+.home-sobre-contato{
+    display: flex;
+}
+
+.home-sobre-contato img{
+    margin-top: 10px;
+    margin-left: 180px;
+}
+
+.contato{
+    text-align: center;
+    width: 50%;
+    margin-top: 35px;
+    margin-left: 420px;
+}
+
+.contato a{
+    color:white;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 30px;
+    font-size: 25px;
+    font-weight: normal;
+    padding: 10px 20px;
+    border-bottom-right-radius: 1px solid;
+    border-radius: 30px;
+    transition: .7s;
+}
+
+.contato a:hover{
+    background: #34444f;
+    border: 1px solid gray;
+}
+
+.contato a.contact-btn{
+    transition: .7;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background: #26C8CB;
+}
+
+.contato a.contact-btn:hover{
+    background: #296a6b;
+    border: none;
+}
+
+
+/*Header Principal*/
+
+.main{
+    display: flex;
+    text-align: left;
+    color: white;
+    font-size: 35px;
+}
+
+.main img{
+    margin-left: 180px;
+}
+
+.info{
+    height: 150px;
+    margin-left: 200px;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.info p{
+    text-align: left;
+}
+
+.info hr{
+    margin: 25px 0 15px 0;
+}
+
+button{
+    padding: 10px 25px;
+    border: none;
+    border-radius: 35px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Conteúdo principal da página*/
+
+#bela-vista{
+    margin: 50px 0 80px 180px;
+    display: flex;
+    font-size: larger;
+}
+
+.unip h2{
+    color: #26C8CB;
+    font-size: 40px;
+    margin: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.unip hr{
+    margin: 25px 0 30px 0;
+}
+
+#titulo{
+    display: flex;
+}
+
+#titulo h1{
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+.img-bv img{
+    margin-left: 200px;
+    border-radius: 50px;
+    width: 800px;
+    height: 300px;
+}
+
+/* Continuação do conteúdo principal*/
+
+.difc{
+    background: #8fd9d8;
+    padding: 25px 200px 30px 400px;
+}
+
+.difc h1{
+    width: 80%;
+    margin-bottom: 80px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.difc img{
+    height: 450px;
+    margin-left: 300px;
+}
+
+.flex{
+    display: flex;
+}
+
+.sad{
+    font-size: 23px;
+}
+
+.sad h3{
+    margin-bottom: 15px;
+}
+
+.sad p{
+    line-height: 35px;
+}
+
+.sad button{
+    color: white;
+    background: #6f8495;
+    padding: 14px 20px;
+    margin-top: 15px;
+    border-radius: 20px;
+}
+
+/*Ultimo conteudo principal*/
+
+#locais{
+    text-align: center;
+    height: 300px;/*apagar*/
+}
+
+#locais h1{
+    font-size: 60px;
+    margin: 80px 0;
+}
+
+#locais b{
+    font-size: 68px;
+}
+
+#image{
+    display: flex;
+    width: 100%;
+}
+
+/*Rodapé*/
+
+footer{
+    background: #233747;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+}
+
+.left{
+    line-height: 28px;
+}
+
+.center{
+    text-align: center;
+    font-size: 25px;
+}
+
+.center img{
+    height: 90px;
+}
+
+.right{
+    line-height: 28px;
+}
+
+
+/*Sobre*/
+
+div#sobre-nos{
+    background-color: #233747;
+    height: 250px;
+    width: 75%;
+    border-radius: 0px 60px 60px 0;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+
+#sobre-nos h1{
+    font-size: 60px;
+    color: #26C8CB;
+    margin: 0 0 25px 15px;
+}
+
+#sobre-nos p{
+    color: white;
+    margin: 40px 0 15px 10px;
+    font-size: 20px;
+    text-align: justify;
+    width: 100%;
+
+    word-spacing: 3px;
+    width: 90%;
+    background: #26C8CB;
+}
